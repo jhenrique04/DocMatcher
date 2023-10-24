@@ -2,7 +2,7 @@ import spacy
 
 class Preprocessor:
     def __init__(self):
-        self.nlp = spacy.load('pt_core_news_sm')
+        self.nlp = spacy.load('pt_core_news_lg')
 
     def process(self, text):
         doc = self.nlp(text)
