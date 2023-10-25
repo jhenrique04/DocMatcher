@@ -1,5 +1,4 @@
 from gensim.models import KeyedVectors
-from gensim.matutils import cossim
 import numpy as np
 
 class Vectorizer:
