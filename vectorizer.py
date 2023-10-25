@@ -10,7 +10,3 @@ class Vectorizer:
         if not vectors:
             return np.zeros(self.model.vector_size)
         return np.mean(vectors, axis=0)
-
-    def calculate_similarity(self, doc_vector, other_vector):
-        cosine_similarity = np.dot(doc_vector, other_vector) / (np.linalg.norm(doc_vector) * np.linalg.norm(other_vector))
-        return cosine_similarity
