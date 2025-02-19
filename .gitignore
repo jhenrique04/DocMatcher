@@ -97,3 +97,5 @@ media/
 test/
 train/
 word2Vec_models/
+.venv3.11.6/
+mistral-7b-instruct-v0.1.Q5_K_M.gguf
